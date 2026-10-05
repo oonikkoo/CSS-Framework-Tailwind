@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <main class="bg-slate-200 flex justify-center items-center min-h-screen">
+    <form class="bg-white w-81 p-6 rounded-xl shadow-md">
+      <h1 class="text-zinc-600 text-xl pb-3">Login to Website</h1>
+
+      <div class="flex justify-between items-center">
+        <label class="" for="email">Email</label>
+        <input
+          class="border border-zinc-600 p-2 hover:border-violet-300 focus:outline-none focus:border-violet-500 rounded"
+          id="email" type="email" name="email" />
+      </div>
+
+      <div class="flex justify-between items-center my-3">
+        <label for="password">Password</label>
+        <input
+          class="border border-zinc-600 p-2 hover:border-violet-300 focus:outline-none focus:border-violet-500 rounded"
+          id="password" type="password" name="password" />
+      </div>
+
+      <button class="w-36 p-2 border rounded-full bg-violet-500 text-white active:bg-violet-600 hover:bg-violet-400 focus:ring ring-violet-300"
+        type="submit">Sign in</button>
+
+      <button class="w-36 p-2 border rounded-full bg-white hover:bg-violet-100 focus:ring ring-violet-300 text-violet-600"
+        type="submit">Sign Up</button>
+    </form>
+  </main>
+</body>
+
+</html>
